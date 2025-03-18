@@ -1,0 +1,32 @@
+.container {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.wrapper>h2 {
+    padding-left: 120px;
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
+.body {
+    overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}

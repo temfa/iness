@@ -1,15 +1,32 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const convoy = localFont({
+  src: [
+    {
+      path: "../public/fonts/Convoy.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/ConvoyBold.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-convoy",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -24,8 +41,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${poppins.variable} ${convoy.variable}`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
