@@ -1,0 +1,28 @@
+.container {
+    padding: 81px 0px;
+    width: 100%;
+    background: linear-gradient(152.9deg, rgba(178, 0, 119, 0.5) 15.71%, rgba(76, 0, 51, 0.5) 84.29%);
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    align-items: center;
+}
+
+.container h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+    width: 894px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 80px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.container>h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}

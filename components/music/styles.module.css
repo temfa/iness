@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: linear-gradient(152.9deg, rgba(178, 0, 119, 0.5) 15.71%, rgba(76, 0, 51, 0.5) 84.29%);
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    width: 77%;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
+.content p {
+    width: 77%;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
