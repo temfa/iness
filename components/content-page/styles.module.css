@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 107px;
+}
+
+.header {
+    width: 100%;
+    height: 634px;
+    background-image: url("../../public/images/content.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(152.9deg, rgba(178, 0, 119, 0.5) 15.71%, rgba(76, 0, 51, 0.5) 84.29%);
+}
+
+.header h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
+.masonryGrid {
+    display: flex;
+    margin-left: -16px;
+    width: auto;
+    margin-top: 80px;
+}
+
+.masonryGridColumn {
+    padding-left: 16px;
+    background-clip: padding-box;
+}
+
+.masonryItem {
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.masonryItem img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
