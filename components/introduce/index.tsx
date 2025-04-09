@@ -11,7 +11,7 @@ export const Introduce = () => {
         <p>Talented Singer/ Song writer/ Performer</p>
       </div>
       <div className={styles.wrapper}>
-        <Image src="/images/iness.png" width={720} height={626} alt="Iness" />
+        <Image src="/images/6.jpg" width={720} height={626} alt="Iness" />
         <div className={styles.content}>
           <div>
             <h2>MEET INESS</h2>

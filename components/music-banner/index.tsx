@@ -9,7 +9,7 @@ export const MusicBanner = () => {
   return (
     <div className={styles.container}>
       <Image src="/images/ellipse.png" className={styles.ellipse} width={453} height={453} alt="Ellipse" />
-      <Image src="/images/woman.png" className={styles.woman} width={575} height={656} alt="Woman" />
+      <Image src="/images/8.jpg" className={styles.woman} width={575} height={656} alt="Woman" />
       <div className={styles.layout}>
         <div className={styles.wrapper}>
           <div className={styles.content}>

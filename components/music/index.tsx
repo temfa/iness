@@ -5,7 +5,7 @@ import Image from "next/image";
 export const MusicInfo = () => {
   return (
     <div className={styles.container}>
-      <Image src="/images/music.png" width={720} height={550} alt="Music" />
+      <Image src="/images/7.jpg" width={720} height={550} alt="Music" />
       <div className={styles.content}>
         <h2>MUSIC & PERFORMANCES</h2>
         <p>

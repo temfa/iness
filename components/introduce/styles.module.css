@@ -34,6 +34,11 @@
     display: flex;
 }
 
+.wrapper img {
+    object-fit: cover;
+    object-position: top center;
+}
+
 .content {
     background-color: #FF00AA33;
     display: flex;

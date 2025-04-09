@@ -12,7 +12,7 @@ export const AboutBody = () => {
           with her talent and charisma since a young age.
         </p>
       </div>
-      <Image src="/images/iness.png" width={720} height={550} alt="Music" />
+      <Image src="/images/9.jpg" width={720} height={550} alt="Music" />
     </div>
   );
 };
