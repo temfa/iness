@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
+import "react-image-lightbox/style.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -41,11 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${convoy.variable}`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <body className={`${poppins.variable} ${convoy.variable}`}>{children}</body>
     </html>
   );
 }

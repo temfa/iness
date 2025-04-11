@@ -838,6 +838,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"browser-or-node@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "browser-or-node@npm:1.3.0"
+  checksum: 14a7e3f7bd2dfeac0d1e8fed378a22c7e3c943c30e84ce09ba0636c82f79f78d321536fd2846dd505b6d7ee6fb0fdb8d7f084afe40f2378eee5533cb8e7cd456
+  languageName: node
+  linkType: hard
+
 "busboy@npm:1.6.0":
   version: 1.6.0
   resolution: "busboy@npm:1.6.0"
@@ -1529,6 +1536,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exenv@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "exenv@npm:1.2.2"
+  checksum: a894f3b60ab8419e0b6eec99c690a009c8276b4c90655ccaf7d28faba2de3a6b93b3d92210f9dc5efd36058d44f04098f6bbccef99859151104bfd49939904dc
+  languageName: node
+  linkType: hard
+
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -1840,6 +1854,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hoist-non-react-statics@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "hoist-non-react-statics@npm:3.3.2"
+  dependencies:
+    react-is: ^16.7.0
+  checksum: b1538270429b13901ee586aa44f4cc3ecd8831c061d06cb8322e50ea17b3f5ce4d0e2e66394761e6c8e152cd8c34fb3b4b690116c6ce2bd45b18c746516cb9e8
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^5.2.0, ignore@npm:^5.3.1":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
@@ -1877,6 +1900,8 @@ __metadata:
     next: 15.2.2
     react: ^19.0.0
     react-dom: ^19.0.0
+    react-image-lightbox: ^5.1.4
+    react-lightgallery: ^0.9.0
     react-masonry-css: ^1.0.16
     typescript: ^5
   languageName: unknown
@@ -2259,6 +2284,69 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lg-autoplay.js@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "lg-autoplay.js@npm:1.2.0"
+  checksum: 90a23868f80076cceefe54f33fd76ddd62005a5b362c88109f8b71340c1bd0de38e753523412816d596ede6c318dab02677ae77fdc27708d611d74fb7d410274
+  languageName: node
+  linkType: hard
+
+"lg-fullscreen.js@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "lg-fullscreen.js@npm:1.2.0"
+  checksum: 173c927dc4861011f5330e10fb83b2c023dafff2cec2db8548f00e5af9fd103d3594dbc112c239d84d5389b5e9230eefb2b03aa95a9c4f164b38fffaeab63f82
+  languageName: node
+  linkType: hard
+
+"lg-hash.js@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "lg-hash.js@npm:1.0.0"
+  checksum: 21fd4c15482840593674b5bfbd376120632d844686415a9362832c37264fe89ea514ab7042c708dcaac1da1e869138761b3b9dc2b2cf65d7ff7df4080f4948e1
+  languageName: node
+  linkType: hard
+
+"lg-pager.js@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "lg-pager.js@npm:1.0.0"
+  checksum: 494f53e54f24beaa07c1cc85a86e9c69a03c1ae5464b8bdc36f05e10c9681cc7641f6b9856ba640893500c33909170c6eb05603fe4aa30be675bda5af0d9a0f4
+  languageName: node
+  linkType: hard
+
+"lg-share.js@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "lg-share.js@npm:1.3.0"
+  checksum: 4071d54b832037f843d971d7c0815a56647b46a107f64178f4ed1ebbbca8997dff2103aa208428e90a728f1f584e70228b0574949d33bbc1db8c6acc3424cf19
+  languageName: node
+  linkType: hard
+
+"lg-thumbnail.js@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "lg-thumbnail.js@npm:1.2.0"
+  checksum: 870e3e470aa4b99eba201d1105675139ad82d891350b7d0fefc9e6a10f849744f1cae99fbfae59c2bfaf2e38496c3b26343fa9ab5650f43161a211d51a397e13
+  languageName: node
+  linkType: hard
+
+"lg-video.js@npm:^1.2.0":
+  version: 1.3.0
+  resolution: "lg-video.js@npm:1.3.0"
+  checksum: 7db2a02d8b62799e343014849fb5ccb4585b15b82363f63f61f459b798f5a43617a8a2c207621553cd1f62b433b7502028ca61d85e9453cd184f5192703e9b2f
+  languageName: node
+  linkType: hard
+
+"lg-zoom.js@npm:^1.2.0":
+  version: 1.3.0
+  resolution: "lg-zoom.js@npm:1.3.0"
+  checksum: b2107997c398b639a00d92b4eca8cea2a5161449e677248f2e217a5d4c38c9e81fb2c590a810b203083501fc9a1201aaafb04665d1abaab70c3c2c95c6d332ae
+  languageName: node
+  linkType: hard
+
+"lightgallery.js@npm:^1.2.0":
+  version: 1.4.0
+  resolution: "lightgallery.js@npm:1.4.0"
+  checksum: b1cb85af7aafa4b538041be034df5ce3ba64fa6670341981095f963b9a76693865367e0242f5f72764e4a56995e60b6563b4ee95708ec9ea700ff70697e9f9e9
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^6.0.0":
   version: 6.0.0
   resolution: "locate-path@npm:6.0.0"
@@ -2275,7 +2363,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.4.0":
+"lodash@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21"
+  checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
+  languageName: node
+  linkType: hard
+
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -2619,7 +2714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2655,10 +2750,55 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1":
+"react-image-lightbox@npm:^5.1.4":
+  version: 5.1.4
+  resolution: "react-image-lightbox@npm:5.1.4"
+  dependencies:
+    prop-types: ^15.7.2
+    react-modal: ^3.11.1
+  peerDependencies:
+    react: 16.x || 17.x
+    react-dom: 16.x || 17.x
+  checksum: 59a209eba5d23301ae450413d2ce87c72c645964e8d797d55060c9261ba9043c6f8c44347ae51ed9db47fd696db13a1e05dfea33da08ef09a4e0acaa0b9065bc
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-lifecycles-compat@npm:^3.0.0":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
+  languageName: node
+  linkType: hard
+
+"react-lightgallery@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "react-lightgallery@npm:0.9.0"
+  dependencies:
+    browser-or-node: ^1.3.0
+    hoist-non-react-statics: ^3.3.2
+    lg-autoplay.js: ^1.2.0
+    lg-fullscreen.js: ^1.2.0
+    lg-hash.js: ^1.0.0
+    lg-pager.js: ^1.0.0
+    lg-share.js: ^1.3.0
+    lg-thumbnail.js: ^1.2.0
+    lg-video.js: ^1.2.0
+    lg-zoom.js: ^1.2.0
+    lightgallery.js: ^1.2.0
+    lodash: ^4.17.15
+    prop-types: ^15.7.2
+    uniqid: ^5.2.0
+  peerDependencies:
+    react: ^16.13.1
+    react-dom: ^16.13.1
+  checksum: dd8417103115f9dc897a2f8ea78802f9d298bd9360e6a302e0354241b93dc71be37691a71b81cbe1687d2f9ba5a1958b92d886ac6beaf51cf0860975a27c0817
   languageName: node
   linkType: hard
 
@@ -2668,6 +2808,21 @@ __metadata:
   peerDependencies:
     react: ">=16.0.0"
   checksum: 3fbffac31535b049b3117b952b112dce31f8e2a84031191a926ad21b782cf20d07761fb90134dded339498be40360e0864af6bc0696f1606c7a4cb5a6aa1ad18
+  languageName: node
+  linkType: hard
+
+"react-modal@npm:^3.11.1":
+  version: 3.16.3
+  resolution: "react-modal@npm:3.16.3"
+  dependencies:
+    exenv: ^1.2.0
+    prop-types: ^15.7.2
+    react-lifecycles-compat: ^3.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
+    react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18 || ^19
+  checksum: e7863e7058c469cd6da82cbc9627d39b305259554f6999cc007ad0988bc1fdb225aa8a7bd756d83da0475b381a3fe2a6e1e045c4ee2eaa64dc30d588d6d8028f
   languageName: node
   linkType: hard
 
@@ -3330,12 +3485,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uniqid@npm:^5.2.0":
+  version: 5.4.0
+  resolution: "uniqid@npm:5.4.0"
+  checksum: 69fc28e7b2b5b24227b4295e51aa7c1d4085a60655ad071db8fc350876cc9044d68ee0781c0d27c2c98691380aa418970e0d1b02a1e4564480f9d19b0dc1707b
+  languageName: node
+  linkType: hard
+
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1"
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 

@@ -10,7 +10,7 @@ const VipBanner = () => {
       <h3>
         As a member, you&apos;ll gain exclusive access to premium content, personalized interactions, and unique benefits that will bring you closer to INESS than ever before.
       </h3>
-      <Link href="/content">Get Started</Link>
+      <Link href="/login">Get Started</Link>
     </div>
   );
 };

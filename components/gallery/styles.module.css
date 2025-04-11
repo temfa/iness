@@ -1,0 +1,36 @@
+.container {
+    width: 85%;
+    margin: 0px auto;
+    padding: 80px 0px;
+}
+
+.masonryGrid {
+    display: flex;
+    margin-left: -16px;
+    width: auto;
+}
+
+.masonryGridColumn {
+    padding-left: 16px;
+    background-clip: padding-box;
+}
+
+.masonryItem {
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.masonryItem img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.masonryItem img:hover {
+    opacity: 0.4;
+}
