@@ -8,21 +8,17 @@ export const MusicBody = () => {
       <div className={styles.wrapper}>
         <h2>SINGLES</h2>
         <div className={styles.body}>
-          <Single title="DON’T TURN YOUR BACK ON ME" text="Crotia Records" type="Single" />
-          <Single title="BLUE PARADISE" text="Downtown Artist Soho London" type="Single" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" />
+          <Single title="DON’T TURN YOUR BACK ON ME" text="Crotia Records" type="Single" src="/images/song.png" />
+          <Single title="BLUE PARADISE" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
+          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
+          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
+          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
         </div>
       </div>
       <div className={styles.wrapper}>
         <h2>ALBUMS</h2>
         <div className={styles.body}>
-          <Single title="DON’T TURN YOUR BACK ON ME" text="Crotia Records" type="Album" />
-          <Single title="BLUE PARADISE" text="Downtown Artist Soho London" type="Album" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Album" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Album" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Album" />
+          <Single title="Physical" text="Iness" type="Album" src="/images/physical-cover.jpg" />
         </div>
       </div>
     </div>

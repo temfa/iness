@@ -5,7 +5,7 @@ import React from "react";
 const Music = () => {
   return (
     <>
-      <MusicBanner />
+      <MusicBanner title="DON’T TURN YOUR BACK ON ME" type="Single" text="Crotia records, 2020" />
       <MusicBody />
     </>
   );

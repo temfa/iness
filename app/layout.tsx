@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import "react-image-lightbox/style.css";
+import { Providers } from "@/redux/provider";
+import { Play } from "@/components/play";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -40,7 +42,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${convoy.variable}`}>{children}</body>
+      <body className={`${poppins.variable} ${convoy.variable}`}>
+        <Providers>
+          {children}
+          <Play />
+        </Providers>
+      </body>
     </html>
   );
 }

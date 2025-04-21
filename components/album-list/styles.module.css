@@ -1,0 +1,32 @@
+.container {
+    padding: 100px 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.play {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18.5px 35px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.left p {
+    color: #3D0A2C;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0%;
+}
