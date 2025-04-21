@@ -1,5 +1,5 @@
+import { AlbumBanner } from "@/components/album-banner";
 import { AlbumList } from "@/components/album-list";
-import { MusicBanner } from "@/components/music-banner";
 import React from "react";
 
 const AlbumLists = async ({ params }: { params: Promise<{ slug: string }> }) => {
@@ -7,7 +7,7 @@ const AlbumLists = async ({ params }: { params: Promise<{ slug: string }> }) => 
   console.log(slug);
   return (
     <>
-      <MusicBanner title="Physical" text="Iness" type="Album" />
+      <AlbumBanner />
       <AlbumList />
     </>
   );
