@@ -10,12 +10,9 @@
     width: 100%;
 }
 
-.logo h2 {
-    color: white;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 100%;
-    letter-spacing: 0%;
+.logo img {
+    object-fit: contain;
+
 }
 
 .wrapper nav {

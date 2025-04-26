@@ -4,11 +4,10 @@ import React from "react";
 
 const AlbumLists = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
-  console.log(slug);
   return (
     <>
-      <AlbumBanner />
-      <AlbumList />
+      <AlbumBanner slug={slug} />
+      <AlbumList slug={slug} />
     </>
   );
 };

@@ -8,17 +8,15 @@ export const MusicBody = () => {
       <div className={styles.wrapper}>
         <h2>SINGLES</h2>
         <div className={styles.body}>
-          <Single title="DON’T TURN YOUR BACK ON ME" text="Crotia Records" type="Single" src="/images/song.png" />
-          <Single title="BLUE PARADISE" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
-          <Single title="CITY LIGHTS" text="Downtown Artist Soho London" type="Single" src="/images/song.png" />
+          <Single title="Same Mistake" text="Iness" type="Single" src="/images/same-mistake.jpg" name="same-mistake" />
+          <Single title="I Adore you" text="Iness" type="Single" src="/images/adore-you.png" name="adore-you" />
         </div>
       </div>
       <div className={styles.wrapper}>
         <h2>ALBUMS</h2>
         <div className={styles.body}>
-          <Single title="Physical" text="Iness" type="Album" src="/images/physical-cover.jpg" />
+          <Single title="Physical" text="Iness" type="Album" src="/images/physical-cover.jpg" name="physical" />
+          <Single title="DEBUT ALBUM INE$$" text="Iness" type="Album" src="/images/debut.png" name="debut" />
         </div>
       </div>
     </div>

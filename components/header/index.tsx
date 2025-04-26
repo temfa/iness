@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
 import Layout from "@/layout";
+import Image from "next/image";
 
 export const Header = () => {
   return (
@@ -9,7 +10,7 @@ export const Header = () => {
       <Layout>
         <div className={styles.wrapper}>
           <div className={styles.logo}>
-            <h2>Iness</h2>
+            <Image src="/images/logo.jpg" width={200} height={50} alt="Logo" />
           </div>
           <nav>
             <Link href="/">Home</Link>

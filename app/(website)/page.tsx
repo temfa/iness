@@ -12,19 +12,16 @@ export default function Home() {
         type="Single"
         list={[
           {
-            songTitle: "DON’T TURN YOUR BACK ON ME",
-            text: "Crotia Records",
-            src: "/images/song.png",
+            songTitle: "Same Mistake",
+            text: "Iness",
+            src: "/images/same-mistake.jpg",
+            name: "same-mistake",
           },
           {
-            songTitle: "DON’T TURN YOUR BACK ON ME",
-            text: "Crotia Records",
-            src: "/images/song.png",
-          },
-          {
-            songTitle: "DON’T TURN YOUR BACK ON ME",
-            text: "Crotia Records",
-            src: "/images/song.png",
+            songTitle: "I Adore you",
+            text: "Iness",
+            src: "/images/adore-you.png",
+            name: "adore-you",
           },
         ]}
       />
@@ -36,6 +33,13 @@ export default function Home() {
             songTitle: "Physical",
             text: "Iness",
             src: "/images/physical-cover.jpg",
+            name: "physical",
+          },
+          {
+            songTitle: "DEBUT ALBUM INE$$",
+            text: "Iness",
+            src: "/images/debut.png",
+            name: "debut",
           },
         ]}
       />

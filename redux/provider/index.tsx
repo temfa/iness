@@ -4,6 +4,7 @@ import store from "../store/store";
 import { Provider } from "react-redux";
 import { persistStore } from "redux-persist";
 import Loading from "@/app/loading";
+import { NewProvider } from "@/components/provider";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
@@ -19,7 +20,9 @@ export function Providers({ children }: { children: React.ReactNode }) {
     <Provider store={store}>
       <PersistGate loading={<Loading />} persistor={persistor}>
         {/* <div className="new-body"> */}
-        <>{children}</>
+        <NewProvider>
+          <>{children}</>
+        </NewProvider>
         {/* </div> */}
       </PersistGate>
     </Provider>

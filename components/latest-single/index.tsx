@@ -11,6 +11,7 @@ type Props = {
     songTitle: string;
     src: string;
     text: string;
+    name: string;
   }[];
 };
 
@@ -21,7 +22,7 @@ export const LatestSingle: FC<Props> = ({ title, type, list }) => {
         <h2>{title}</h2>
         <div className={styles.body}>
           {list?.map((item, index) => {
-            return <Single key={index} title={item.songTitle} text={item.text} type={type} src={item.src} />;
+            return <Single key={index} title={item.songTitle} text={item.text} type={type} src={item.src} name={item.name} />;
           })}
         </div>
         <Link href="/music">See More</Link>

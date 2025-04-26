@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 const songSlice = createSlice({
   name: "song",
-  initialState: "",
+  initialState: null,
   reducers: {
     setSong: (state, { payload }) => {
       return payload;
     },
     clearSong: () => {
-      return "";
+      return null;
     },
   },
 });
