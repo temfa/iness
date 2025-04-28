@@ -12,7 +12,10 @@
 
 .logo img {
     object-fit: contain;
+}
 
+.logo svg {
+    display: none;
 }
 
 .wrapper nav {
@@ -28,4 +31,36 @@
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .wrapper,
+    .wrapper nav {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        object-fit: cover;
+    }
+
+    .logo svg {
+        display: block;
+    }
+
+    .wrapper nav {
+        display: none;
+    }
+
+    .mobile nav {
+        display: flex;
+    }
 }
