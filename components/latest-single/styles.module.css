@@ -34,3 +34,24 @@
     line-height: 30px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 1024px) {
+    .body {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container>h2 {
+        font-size: 32px;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

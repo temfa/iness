@@ -28,3 +28,10 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+    .container>p {
+        text-align: center;
+        line-height: 32px;
+    }
+}

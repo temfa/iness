@@ -8,8 +8,12 @@ export const MusicBody = () => {
       <div className={styles.wrapper}>
         <h2>SINGLES</h2>
         <div className={styles.body}>
-          <Single title="Same Mistake" text="Iness" type="Single" src="/images/same-mistake.jpg" name="same-mistake" />
-          <Single title="I Adore you" text="Iness" type="Single" src="/images/adore-you.png" name="adore-you" />
+          <div className={styles.single}>
+            <Single title="Same Mistake" text="Iness" type="Single" src="/images/same-mistake.jpg" name="same-mistake" />
+          </div>
+          <div className={styles.single}>
+            <Single title="I Adore you" text="Iness" type="Single" src="/images/adore-you.png" name="adore-you" />
+          </div>
         </div>
       </div>
       <div className={styles.wrapper}>

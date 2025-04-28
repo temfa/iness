@@ -33,3 +33,11 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+
+    .container,
+    .container>img {
+        width: 100%;
+    }
+}

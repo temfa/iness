@@ -44,5 +44,21 @@
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
+}
 
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 16px;
+    }
+
+    .container h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .container p,
+    .container h3 {
+        width: 100%;
+        font-size: 16px;
+    }
 }

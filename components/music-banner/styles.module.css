@@ -96,3 +96,19 @@
     line-height: 15px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+
+    .woman,
+    .ellipse {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h2 {
+        font-size: 48px;
+    }
+}

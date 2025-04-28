@@ -25,6 +25,7 @@
     width: 100%;
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .body::-webkit-scrollbar {
