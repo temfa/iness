@@ -57,3 +57,14 @@
     width: fit-content;
     height: 500px;
 }
+
+@media screen and (max-width: 500px) {
+    .header {
+        height: 500px;
+        padding: 0px 16px;
+    }
+
+    .header h2 {
+        font-size: 40px;
+    }
+}

@@ -5,7 +5,7 @@ import React from "react";
 const Music = () => {
   return (
     <>
-      <MusicBanner title="Same Mistake" type="Single" text="Iness, 2020" />
+      <MusicBanner title="Same Mistake" type="Single" text="INE$$, 2020" />
       <MusicBody />
     </>
   );

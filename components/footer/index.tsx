@@ -8,14 +8,14 @@ import { TiktokSvg } from "@/svgs/tiktok";
 export const Footer = () => {
   return (
     <div className={styles.container}>
-      <h2>Iness</h2>
+      <h2>INE$$</h2>
       <div className={styles.socials}>
         <YoutubeSvg />
         <InstagramSvg />
         <FacebookSvg />
         <TiktokSvg />
       </div>
-      <p>2025 INESS Official Website. All rights reserved</p>
+      <p>2025 INE$$ Official Website. All rights reserved</p>
     </div>
   );
 };

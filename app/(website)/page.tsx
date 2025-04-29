@@ -13,13 +13,13 @@ export default function Home() {
         list={[
           {
             songTitle: "Same Mistake",
-            text: "Iness",
+            text: "INE$$",
             src: "/images/same-mistake.jpg",
             name: "same-mistake",
           },
           {
             songTitle: "I Adore you",
-            text: "Iness",
+            text: "INE$$",
             src: "/images/adore-you.png",
             name: "adore-you",
           },
@@ -31,13 +31,13 @@ export default function Home() {
         list={[
           {
             songTitle: "Physical",
-            text: "Iness",
+            text: "INE$$",
             src: "/images/physical-cover.jpg",
             name: "physical",
           },
           {
             songTitle: "DEBUT ALBUM INE$$",
-            text: "Iness",
+            text: "INE$$",
             src: "/images/debut.png",
             name: "debut",
           },

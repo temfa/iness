@@ -12,10 +12,14 @@ const Login = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.header}>
-            <h2>LOG IN</h2>
-            <p>Kindly enter your details</p>
+            <h2>Sign Up</h2>
+            <p>Kindly enter your details to create an account</p>
           </div>
           <div className={styles.form}>
+            <div className={styles.group}>
+              <label htmlFor="">Full Name</label>
+              <input type="text" placeholder="Enter your Full Name" />
+            </div>
             <div className={styles.group}>
               <label htmlFor="">Email</label>
               <input type="email" placeholder="Enter your Email" />
@@ -25,12 +29,12 @@ const Login = () => {
               <input type="password" placeholder="Enter your Password" />
             </div>
             <Link href="/content">
-              <button>Log in</button>
+              <button>Sign Up</button>
             </Link>
             <p>
-              Dont have an account?{" "}
+              Already have an account?{" "}
               <span>
-                <Link href="/register">Sign Up</Link>
+                <Link href="/login">Login</Link>
               </span>
             </p>
           </div>

@@ -7,16 +7,16 @@ export const Introduce = () => {
   return (
     <div className={styles.container}>
       <div className={styles.top}>
-        <h2>INTRODUCING INESS</h2>
+        <h2>INTRODUCING INE$$</h2>
         <p>Talented Singer/ Song writer/ Performer</p>
       </div>
       <div className={styles.wrapper}>
-        <Image src="/images/6.jpg" width={720} height={626} alt="Iness" />
+        <Image src="/images/6.jpg" width={720} height={626} alt="INE$$" />
         <div className={styles.content}>
           <div>
-            <h2>MEET INESS</h2>
+            <h2>MEET INE$$</h2>
             <p>
-              A talented singer, songwriter, and performer from Croatia. With a rich background in music, dance, and acting, INESS has been making waves in the entertainment
+              A talented singer, songwriter, and performer from Croatia. With a rich background in music, dance, and acting, INE$$ has been making waves in the entertainment
               industry.
             </p>
             <h4>

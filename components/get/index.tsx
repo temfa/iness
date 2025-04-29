@@ -6,7 +6,7 @@ export const Get = () => {
   return (
     <div className={styles.container}>
       <h2>GET EXCLUSIVE ACCESS</h2>
-      <p>Become a part of INESS inner circle and enjoy exclusive benefits and VIP contents including:</p>
+      <p>Become a part of INE$$ inner circle and enjoy exclusive benefits and VIP contents including:</p>
       <div className={styles.body}>
         <div className={styles.single}>
           <div></div>

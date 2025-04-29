@@ -6,9 +6,9 @@ const VipBanner = () => {
   return (
     <div className={styles.container}>
       <h2>WELCOME TO THE INNER CIRCLE</h2>
-      <p>The ultimate VIP experience for INESS&apos;s most loyal fans</p>
+      <p>The ultimate VIP experience for INE$$&apos;s most loyal fans</p>
       <h3>
-        As a member, you&apos;ll gain exclusive access to premium content, personalized interactions, and unique benefits that will bring you closer to INESS than ever before.
+        As a member, you&apos;ll gain exclusive access to premium content, personalized interactions, and unique benefits that will bring you closer to INE$$ than ever before.
       </h3>
       <Link href="/login">Get Started</Link>
     </div>

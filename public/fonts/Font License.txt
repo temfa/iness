@@ -36,7 +36,7 @@ Pixel Sagas expressly disclaims any warranty for the software product. The softw
 
 No Liability For Consequential Damages.
 
-In no event shall Neale Davidson or Pixel Sagas be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if Pixel Sagas has been advised of the possibility of such damages.
+In no event shall Neale Davidson or Pixel Sagas be liable for any damages whatsoever (including, without limitation, damages for loss of busINE$$ profits, busINE$$ interruption, loss of busINE$$ information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if Pixel Sagas has been advised of the possibility of such damages.
 
 3) MISCELLANEOUS
 

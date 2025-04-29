@@ -24,3 +24,20 @@
     text-align: center;
     width: 894px;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 40px 20px;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .container>h2 {
+        font-size: 28px;
+    }
+
+    .container p {
+        width: 100%;
+        font-size: 12px;
+    }
+}

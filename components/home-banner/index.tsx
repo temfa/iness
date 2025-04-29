@@ -10,13 +10,13 @@ export const HomeBanner = () => {
   const data = [
     {
       songTitle: "Same Mistake",
-      text: "Iness",
+      text: "INE$$",
       src: "/images/same-mistake-banner.jpg",
       song: "/songs/same-mistake.mp3",
     },
     {
       songTitle: "I Adore you",
-      text: "Iness",
+      text: "INE$$",
       src: "/images/adore-you.png",
       song: "/songs/adore-you.mp3",
     },

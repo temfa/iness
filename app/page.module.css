@@ -43,6 +43,7 @@
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 2%;
+  text-align: center;
 }
 
 .form {
@@ -91,4 +92,36 @@
   line-height: 30px;
   letter-spacing: 2%;
   width: 100%;
+}
+
+.form p {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    overflow-y: scroll;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 0px 20px;
+  }
+
+  .right,
+  .form {
+    width: 100%;
+  }
 }

@@ -9,7 +9,7 @@ export const MusicInfo = () => {
       <div className={styles.content}>
         <h2>MUSIC & PERFORMANCES</h2>
         <p>
-          With a background in acting, modeling, and music, INESS has released several successful singles, including &quot;Physical&quot; (Sony Records), &quot;Don&apos;t Turn Your
+          With a background in acting, modeling, and music, INE$$ has released several successful singles, including &quot;Physical&quot; (Sony Records), &quot;Don&apos;t Turn Your
           Back on Me,&quot; and &quot;Blue Paradise.&quot; Her music style blends pop, R&B, and electronic elements, showcasing her unique voice and artistry.
         </p>
       </div>

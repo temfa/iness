@@ -30,3 +30,17 @@
     line-height: 15px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 60px 24px;
+    }
+
+    .play {
+        padding: 12px 20px;
+    }
+
+    .left {
+        gap: 20px;
+    }
+}

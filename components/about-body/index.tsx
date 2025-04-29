@@ -6,9 +6,9 @@ export const AboutBody = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h2>ABOUT INESS</h2>
+        <h2>ABOUT INE$$</h2>
         <p>
-          Meet INESS, a multifaceted artist with a passion for music, dance, and performance. Born Ines Bozinovic Tvrktovic in Zagreb, Croatia, INESS has been captivating audiences
+          Meet INE$$, a multifaceted artist with a passion for music, dance, and performance. Born Ines Bozinovic Tvrktovic in Zagreb, Croatia, INE$$ has been captivating audiences
           with her talent and charisma since a young age.
         </p>
       </div>

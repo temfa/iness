@@ -44,7 +44,7 @@ export const ContentPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h2>INESS VIP SPACE</h2>
+        <h2>INE$$ VIP SPACE</h2>
       </div>
       <Layout>
         <Masonry breakpointCols={breakpointColumnsObj} className={styles.masonryGrid} columnClassName={styles.masonryGridColumn}>

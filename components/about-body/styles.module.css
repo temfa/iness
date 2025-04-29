@@ -35,3 +35,30 @@
     line-height: 40px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 24px 0px;
+        /* gap: 24px; */
+    }
+
+    .container>img {
+        width: 100%;
+    }
+
+    .content {
+        padding: 24px;
+        width: 100%;
+    }
+
+    .content h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 16px;
+    }
+}

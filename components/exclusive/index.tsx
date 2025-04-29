@@ -11,17 +11,17 @@ export const Exclusive = () => {
           <div className={styles.single}>
             <h3>Private Photos</h3>
             <p>
-              Get access to never-before-seen photos from INESS&apos;s personal archives, including behind-the-scenes moments, studio sessions, and intimate glimpses into their
+              Get access to never-before-seen photos from INE$$&apos;s personal archives, including behind-the-scenes moments, studio sessions, and intimate glimpses into their
               life.
             </p>
           </div>
           <div className={styles.single}>
             <h3>Behind-the-Scenes Videos</h3>
-            <p>Watch exclusive videos showcasing INESS&apos;s creative process, rehearsals, and performances.</p>
+            <p>Watch exclusive videos showcasing INE$$&apos;s creative process, rehearsals, and performances.</p>
           </div>
           <div className={styles.single}>
             <h3>Personal Messages</h3>
-            <p>Receive personalized messages from INESS, sharing their thoughts, inspirations, and gratitude.</p>
+            <p>Receive personalized messages from INE$$, sharing their thoughts, inspirations, and gratitude.</p>
           </div>
           <div className={styles.single}>
             <h3>Early Access</h3>

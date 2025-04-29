@@ -34,3 +34,29 @@
     line-height: 40px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        /* gap: 24px; */
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .content {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .content h2 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 16px;
+    }
+}

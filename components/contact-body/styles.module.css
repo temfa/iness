@@ -106,3 +106,27 @@
     line-height: 30px;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner {
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    .wrapper {
+        margin-top: 0px;
+        padding: 24px;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
